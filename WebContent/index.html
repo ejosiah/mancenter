@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" 	href="js/extjs/resources/css/ext-all.css" />
+<style>
+	#pie div{
+		margin-left : 2%;
+		margin-top : -4%;
+	}
+	
+	#pie h2{
+		padding: 1em 0 0 2.5em
+	}
+	
+	#left, #right{
+	/*	border: 1px solid red; */
+		position: relative;
+		margin-left: 1em;
+	}
+	
+	#left{
+		float: left;
+		width: 25%;
+	}
+	#right{
+		float : right;
+		width : 70%;
+	}
+	
+	#pie{
+		clear:  both;
+	}
+	a{
+		text-decoration : none;
+		color : black;
+	}
+	ul li{
+		margin-bottom : 5px;
+	}
+	
+	.member-partitions 
+	{
+		margin : 20px 0 0 20px;
+	}
+	
+	.member-partitions table{
+		width : 75%;
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		
+	}
+	.member-partitions table tr td{
+		border-right: 2px solid black;
+		border-left : 1px solid black;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		padding: 7px;
+		text-align: center;
+	}
+	.member-runtime table, #left table, #right table{
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		text-align: right;
+		margin : 1em;
+	}
+	.member-runtime table tr, #left table, #right table{
+		padding: 2px;
+	}
+	.member-runtime table tr td + td,
+	 #left table, #right table tr td + td,
+	 #left table, #left table tr td + td{
+		text-align: left;
+		padding-left : 1.5em;
+	}
+	
+	.member-sysProps table{
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		text-align: right;
+		margin : 1em;
+	}
+	
+	.member-sysProps table tr td:first-child{
+		font-weight: bold;
+	}
+	
+	.member-sysProps table tr td.value{
+		text-align: left;
+		padding-left: 1.5em;
+	}
+	
+	ul{
+		margin : 5px 0 0 10px;
+	}
+	
+	.chartTable table{
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		border : 1px solid black;
+		text-align: right;
+		margin : 1em;
+	}
+	
+	.chartTable table thead{
+		font-weight: bold;    background-color: #CBDDF3;
+    background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3);
+    border-color: #99BCE8;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 #F4F8FD inset;
+    font-size: 11px;		
+	}
+	
+	.chartTable td, .chartTable th{
+		padding : 5px;
+		border : 1px solid black;
+		text-align: center;
+	}
+	#entry_data table{
+		padding-left: 1em;
+	}
+	#entry_data .title{
+		font-weight : bold;
+		text-align: right;
+		padding-right : 1em;
+		padding-left : 1em;
+	}
+</style>
+<script src="js/library.js"></script>
+<script src="js/extjs/ext-all-debug.js"></script>
+<script src="js/templates.js"></script>
+<script src="js/data.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/handlers.js"></script>
+<title>Hazelcat Management Center</title>
+</head>
+<body>
+
+</body>
+</html>
